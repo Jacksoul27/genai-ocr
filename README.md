@@ -3,6 +3,9 @@ Proses Install
 1. Buat virtual environment python (python 3.10 >)
     "python -m venv env" lalu aktifkan env nya "./env/Scripts/activate"
 
+    jika sudah ada env maka aktifkan saja dengan "source env/bin/activate" (untuk linux/mac) atau
+    "env\Scripts\activate" (untuk windows)
+
 2. Install depedencies yang ada di "Requirements.txt" ke env yang telah dibuat.
    "pip install -r requirements.txt" atau install satu persatu secara manual.
 
