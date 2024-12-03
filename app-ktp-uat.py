@@ -356,8 +356,8 @@ def extract_anythings():
 
 
 if __name__ == "__main__":
-    cert_file = "./bundle.crt"
-    key_file = "./csr.key"
+    cert_file = "./SSL/bundle.crt"
+    key_file = "./SSL/csr.key"
 
     context = ssl.SSLContext(ssl.PROTOCOL_TLS)
     context.load_cert_chain(certfile=cert_file, keyfile=key_file)
