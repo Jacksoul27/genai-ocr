@@ -1,10 +1,10 @@
 google-generativeai
-pillow
-matplotlib
-streamlit
-pytesseract
-opencv-python-headless
 flask
-request
 jsonify
+requests
+pillow
+opencv-python-headless
 uvicorn[standard]
+pytesseract
+streamlit
+matplotlib
