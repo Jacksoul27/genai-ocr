@@ -1,0 +1,2 @@
+# genai-ocr
+GenerativeAI-OCR
